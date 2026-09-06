@@ -6,8 +6,9 @@ cd meu-novo-projeto
 git init
 
 # 2. Copie as pastas .agent e templates do seu repositório spec-kit local
-cp -r /caminho/para/o/seu/spec-kit/.agent .
-cp -r /caminho/para/o/seu/spec-kit/templates .
+```
+cp -r /caminho/para/o/seu/spec-kit/.agent /caminho/para/o/seu/spec-kit/templates .
+```
 
 # 3. Crie a pasta onde o agente salvará a constituição e as features
 mkdir -p .specify/memory specs
