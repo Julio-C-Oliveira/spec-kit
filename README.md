@@ -13,7 +13,7 @@ cp -r /caminho/para/o/seu/spec-kit/templates .
 mkdir -p .specify/memory specs
 
 **A raiz do projeto vai ficar assim:**
-
+```
 meu-novo-projeto/
 ├── .agent/              <- Antigravity lê os workflows daqui
 │   └── workflows/
@@ -25,7 +25,7 @@ meu-novo-projeto/
 │   └── memory/          <- Onde será gravada a constitution.md
 ├── specs/               <- Onde o agente criará as pastas de features
 └── (arquivos do seu código que virão depois)
-
+```
 # 3. Primeiros passos no Antigravity
 - Abra o projeto na pasta.
 - Rode o comando inicial
